@@ -1,0 +1,41 @@
+GIT- VERSION CONTROL SYSTEM , OPEN SOURCE
+
+initial commands:-
+git config --global user.name "Ananay Srivastava"
+git config --global user.email "ananaysrivas102@gmail.com"
+git config --global core.editor "code --wait"
+git config --global core.autocrlf "input"      // line ending window->mac & vice versa
+git config --global -e
+
+
+whenever we create a project git doest know about our project so we can initialize git and use it to create 
+untracked, tracked, modified, staged, checkpoints in our project.
+
+    git log --oneline            // display all saved point
+    git reset --hard HEAD~1     // go back one saved check point
+
+    rmdir /s /q .git    // remove git from the folder use cmd to run this command. navigate to the folder and run this command.
+
+heirarchy untrad => untracked-> added -> modified ->commit.
+
+git status -s     // show status of file. this command will show status of file prior to commit or any changes done after the commit
+
+BRACHNING- 
+    git branch branch_name :- create branch .
+    git swith branch_name :- switch to a particular branch 
+    git switch -C branch_name :- create a branch and switch the control to the created branch.
+
+    git merge branch_name :- merge the branches. * always shift the control to the main branch then merge *
+
+    git branch -d branch_name :- delete the branch.
+    git log --oneline --graph :- show a connected graph of all branches and commits.
+
+STASHING -
+    whenever we change something in a branch and want to switch to anther branch without creating a checkpoint we
+    face an error, in this case stashing comes in hand we can draft those changes and then switch to another branch.
+    when we return to the branch where we draft the changes.
+
+    git stash :- draft those changes.
+    git stash apply :- whenever we return to the brach where we created a draft we would not be able to see those 
+                       changes. to see those drafted changes we use this command.
+    git stash clear :- clear the stash.
