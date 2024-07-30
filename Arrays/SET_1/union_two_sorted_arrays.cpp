@@ -47,12 +47,32 @@ vector<int> union_of_two_sorted_arrays(vector<int> arr1,vector<int> arr2){
 
 
 }
+
+vector<int> by_set(vector<int> a,vector<int> b){
+    int n1=a.size();
+    int n2=b.size();
+    set<int> st;
+    for(int i=0;i<max(n1,n2);i++){
+        if(i<n1){
+            st.insert(a[i]);
+        }
+        if(i<n2){
+            st.insert(b[i]);
+        }
+    }
+
+    vector<int> ans;
+
+    for(auto x: st) ans.push_back(x);
+    return ans;
+
+}
 int main()
 {
 
     vector<int> arr1={1,1,2,3,4,};
     vector<int> arr2={2,3,5,9,10};
-    vector<int> ans=union_of_two_sorted_arrays(arr1,arr2);
+    vector<int> ans=by_set(arr1,arr2);
 
     for(auto x:ans) cout<<x<<" ";
     return 0;
