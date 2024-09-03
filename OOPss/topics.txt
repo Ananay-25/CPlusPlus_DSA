@@ -1,0 +1,13 @@
+classes
+objects
+encapsulation
+abstraction
+polymorphism
+inheritance - types of inheritance
+
+constructor- its types
+destructors
+
+friend functions
+virtual and pure virtual functions
+

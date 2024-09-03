@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/anana/OneDrive/Desktop/C++B-A",
-      "program": "c:/Users/anana/OneDrive/Desktop/C++B-A/build/Debug/outDebug",
+      "cwd": "c:/Users/anana/OneDrive/Desktop/C++B-A/Arrays/SET_1",
+      "program": "c:/Users/anana/OneDrive/Desktop/C++B-A/Arrays/SET_1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
