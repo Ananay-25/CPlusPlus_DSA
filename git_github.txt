@@ -8,6 +8,7 @@ git config --global core.autocrlf "input"      // line ending window->mac & vice
 git config --global -e
 
 
+
 whenever we create a project git doest know about our project so we can initialize git and use it to create 
 untracked, tracked, modified, staged, checkpoints in our project.
 
@@ -25,7 +26,7 @@ BRACHNING-
     git swith branch_name :- switch to a particular branch 
     git switch -C branch_name :- create a branch and switch the control to the created branch.
 
-    git merge branch_name :- merge the branches. * always shift the control to the main branch then merge *
+    git merge branch_name :- merge the branches. *** always shift the control to the main branch then merge ***
 
     git branch -d branch_name :- delete the branch.
     git log --oneline --graph :- show a connected graph of all branches and commits.

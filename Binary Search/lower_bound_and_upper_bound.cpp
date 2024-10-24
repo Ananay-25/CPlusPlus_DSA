@@ -45,7 +45,7 @@ int upper_bound(vector<int>arr , int x){
 
 //  Seacrh in an sorted array for X ->
 //          1) if x is present then return the index
-//          2) if not then return the index where the x shuold be inserted such that it maintains a sorted order.
+//          2) if not then return the index where the x should be inserted such that it maintains a sorted order.
 // This problem can be restated as a lower bound problem where we need return minimum index of array where the x 
 // should be inserted.
 

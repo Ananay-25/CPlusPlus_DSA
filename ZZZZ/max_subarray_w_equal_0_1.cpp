@@ -32,5 +32,5 @@ int main()
 {
     vector<int> arr={0,0,0,1};
     cout<<length_max_subarray(arr);
-    return 0;
+    
 }
